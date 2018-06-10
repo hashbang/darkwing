@@ -9,6 +9,11 @@
 
 ## About ##
 
+  NOTE: The following is all in DRAFT status and part of documentation driven
+  development
+
+  ---
+
   DARKWING a pentestesting platform embedded inside a USB Cable. It is intended
   as a more covert alternative to the fantastic [USB Rubber Ducky][4] platform
   by Hak5 with an enhanced range of attack capabilities.
