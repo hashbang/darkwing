@@ -2,7 +2,6 @@
 
 <http://github.com/hashbang/darkwing>
 
-[![TravisCI][travis-badge]][travis-status]
 [![License][license-badge]][license]
 
 [license-badge]: https://img.shields.io/github/license/hashbang/darkwing.svg
