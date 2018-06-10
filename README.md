@@ -1,4 +1,4 @@
-# Darkwing #
+# DARKWING #
 
 <http://github.com/hashbang/darkwing>
 
@@ -9,7 +9,7 @@
 
 ## About ##
 
-  DarkWing a pentestesting platform embedded inside a USB Cable. It is intended
+  DARKWING a pentestesting platform embedded inside a USB Cable. It is intended
   as a more covert alternative to the USB Rubberduck, designed to run a wider
   range of payloads that take advantage of the modern user habit of blindly
   trusting USB Type C cables.
@@ -18,7 +18,8 @@
   fit inside a USB Type C connector housing and be soldered directly to the
   connector.
 
-  It is named Darkwing after the most stealthy of all ducks.
+  It is named DARKWING after the most stealthy of all ducks. We also make it
+  ALL CAPS because it makes it look more like an NSA project.
 
 ## Use Cases ##
 
