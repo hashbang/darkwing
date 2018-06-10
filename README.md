@@ -10,9 +10,8 @@
 ## About ##
 
   DARKWING a pentestesting platform embedded inside a USB Cable. It is intended
-  as a more covert alternative to the USB Rubberduck, designed to run a wider
-  range of payloads that take advantage of the modern user habit of blindly
-  trusting USB Type C cables.
+  as a more covert alternative to the fantastic [USB Rubber Ducky][4] platform
+  by Hak5 with an enhanced range of attack capabilities.
 
   We use a powerful STM32F4 platform on a thin flexible PCB that can easily
   fit inside a USB Type C connector housing and be soldered directly to the
@@ -23,7 +22,7 @@
 
 ## Use Cases ##
 
-  * Run USB Rubber Ducky payloads
+  * Run [USB Rubber Ducky][4] payloads
   * Installing malware via keyboard emulation
   * Sound exfiltration by emulating speakers
   * Screenshot by emulating USB-Type-C HDMI device
@@ -44,6 +43,7 @@
   [1]: https://www.digikey.com/product-detail/en/stmicro/STM32F407G-DISC1/497-16287-ND/5824404
   [2]: http://a.co/i35r3DK]
   [3]: https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F407VGT6/497-11605-ND/2747117
+  [4]: https://www.hak5.org/gear/usb-rubber-ducky
 
 ## Usage ##
 
