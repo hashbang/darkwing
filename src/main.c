@@ -1,8 +1,8 @@
 #include "stm32f4xx_hal.h"
 
-#define LED_PIN                                GPIO_PIN_5
-#define LED_GPIO_PORT                          GPIOA
-#define LED_GPIO_CLK_ENABLE()                  __HAL_RCC_GPIOA_CLK_ENABLE()
+#define LED_PIN                                GPIO_PIN_14
+#define LED_GPIO_PORT                          GPIOD
+#define LED_GPIO_CLK_ENABLE()                  __HAL_RCC_GPIOD_CLK_ENABLE()
 
 int main(void){
   HAL_Init();
@@ -15,7 +15,7 @@ int main(void){
   HAL_GPIO_Init(LED_GPIO_PORT, &GPIO_InitStruct);
   while (1) {
     HAL_GPIO_TogglePin(LED_GPIO_PORT, LED_PIN);
-    HAL_Delay(1000);
+    HAL_Delay(100);
   }
 }
 
