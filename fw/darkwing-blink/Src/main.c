@@ -105,7 +105,10 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-
+    
+    /* Uses the HAL to toggle LD4 and delay for 500ms. Easy peasy Japaneesy */
+    HAL_GPIO_TogglePin(GPIOD, LD4_Pin);
+    HAL_Delay(500);
   }
   /* USER CODE END 3 */
 
